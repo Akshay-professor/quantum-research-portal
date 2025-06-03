@@ -7,6 +7,8 @@ import { Publications } from '../components/Publications';
 import { Contact } from '../components/Contact';
 import { Navigation } from '../components/Navigation';
 import { ParticleBackground } from '../components/ParticleBackground';
+import { MMUTMap } from '../components/MMUTMap';
+import { Footer } from '../components/Footer';
 
 const Index = () => {
   const [activeSection, setActiveSection] = useState('hero');
@@ -33,7 +35,7 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="relative min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+    <div className="relative min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 dark:from-gray-900 dark:to-blue-900">
       <ParticleBackground />
       <Navigation activeSection={activeSection} />
       
@@ -56,6 +58,9 @@ const Index = () => {
       <section id="contact">
         <Contact />
       </section>
+      
+      <MMUTMap />
+      <Footer />
     </div>
   );
 };
