@@ -23,31 +23,31 @@ export const About = () => {
 
   const timeline = [
     {
-      year: '2020-Present',
-      title: 'Senior Research Scientist',
+      year: '2013-Present',
+      title: 'Associate Professor',
       institution: 'Madan Mohan Malaviya University of Technology',
-      description: 'Leading research in power electronics and cold atom physics',
+      description: 'Department of Electrical Engineering - Leading research in power electronics and renewable energy',
       icon: Award,
     },
     {
-      year: '2015-2020',
+      year: '2008-2013',
       title: 'Assistant Professor',
       institution: 'Department of Electrical Engineering',
-      description: 'Teaching and research in power systems and electronics',
+      description: 'Teaching and research in power systems, SMPS design, and electric vehicles',
       icon: GraduationCap,
     },
     {
-      year: '2012-2015',
+      year: '2005-2008',
       title: 'Ph.D. in Electrical Engineering',
-      institution: 'Research in SMPS and Power Quality',
-      description: 'Focused on switched-mode power supply design and optimization',
+      institution: 'Power Electronics and Power Quality',
+      description: 'Research focus on switched-mode power supplies and harmonic mitigation',
       icon: BookOpen,
     },
     {
-      year: '2010-2012',
+      year: '2003-2005',
       title: 'M.Tech in Power Electronics',
       institution: 'Specialization in Power Systems',
-      description: 'Advanced studies in power conversion and control systems',
+      description: 'Advanced studies in power conversion and renewable energy integration',
       icon: Users,
     },
   ];
@@ -56,10 +56,10 @@ export const About = () => {
     <div className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className={`text-center mb-16 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <h2 className="text-4xl lg:text-5xl font-bold text-slate-800 mb-6">About</h2>
+          <h2 className="text-4xl lg:text-5xl font-bold text-slate-800 mb-6">About Dr. Shikha Singh</h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            A passionate researcher dedicated to advancing the frontiers of power electronics 
-            and quantum physics through innovative research and educational excellence.
+            Associate Professor at Madan Mohan Malaviya University of Technology, dedicated to advancing 
+            power electronics, renewable energy systems, and electric vehicle technologies through innovative research.
           </p>
         </div>
 
@@ -70,26 +70,26 @@ export const About = () => {
               <h3 className="text-2xl font-semibold text-slate-800 mb-4">Research Focus</h3>
               <div className="space-y-4 text-slate-600">
                 <p>
-                  Specializing in the development of high-efficiency switched-mode power supplies 
-                  with improved power quality and reduced harmonic distortion. My work focuses on 
-                  innovative converter topologies and control strategies.
+                  Specializing in power quality improvement through advanced switched-mode power supply designs, 
+                  DC-DC converters, and renewable energy integration. Leading research in electric vehicle 
+                  charging systems and energy storage solutions.
                 </p>
                 <p>
-                  In parallel, I explore the fascinating realm of cold atom physics, working on 
-                  laser cooling and trapping techniques for both fermionic and bosonic atoms, 
-                  with applications in quantum sensing and fundamental physics research.
+                  Active in interdisciplinary research including cold atom physics, laser cooling techniques, 
+                  and quantum sensing applications. Published extensively in power electronics, 
+                  electromagnetically induced transparency, and computational physics.
                 </p>
               </div>
             </div>
 
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-white rounded-2xl p-6 shadow-lg border border-slate-100 hover:shadow-xl transition-shadow">
-                <div className="text-3xl font-bold text-blue-600 mb-2">150+</div>
-                <div className="text-slate-600">Citations</div>
-              </div>
-              <div className="bg-white rounded-2xl p-6 shadow-lg border border-slate-100 hover:shadow-xl transition-shadow">
                 <div className="text-3xl font-bold text-blue-600 mb-2">20+</div>
                 <div className="text-slate-600">Publications</div>
+              </div>
+              <div className="bg-white rounded-2xl p-6 shadow-lg border border-slate-100 hover:shadow-xl transition-shadow">
+                <div className="text-3xl font-bold text-blue-600 mb-2">11+</div>
+                <div className="text-slate-600">Years Experience</div>
               </div>
             </div>
           </div>
